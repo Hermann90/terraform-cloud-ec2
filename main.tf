@@ -4,7 +4,6 @@ provider "aws" {
 
 data "aws_ami" "ubuntu" {
   most_recent = true
-  count = 2
 
   filter {
     name   = "name"
